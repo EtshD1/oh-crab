@@ -1,7 +1,8 @@
-use std::num::Wrapping;
 use std::io;
+use std::num::Wrapping;
 
 fn main() {
+    println!("Hello, Data Types!");
     // Data Types
     println!("Data type example");
     println!("Decimals:");
@@ -50,7 +51,7 @@ fn main() {
     println!();
     // Arrays
     println!("Array Example");
-    let arr:[u8; 10] = [0, 1, 2, 3, 4, 6, 7, 8, 9, 10];
+    let arr: [u8; 10] = [0, 1, 2, 3, 4, 6, 7, 8, 9, 10];
     println!("First index of the array is {}", arr[0]);
 
     for i in 0..10 {
@@ -58,7 +59,7 @@ fn main() {
     }
 
     println!("Anotha one");
-    let arr = [3;5];
+    let arr = [3; 5];
 
     for i in 0..5 {
         println!("Index of {} is {}", i, arr[i]);
@@ -86,8 +87,8 @@ fn main() {
     println!("The value of the element at index {index} is: {element}");
 }
 
-fn overflowing_x () -> () {
-    let mut x  = Wrapping(0u8);
+fn overflowing_x() -> () {
+    let mut x = Wrapping(0u8);
     println!("Integer overflowing example");
     println!("Starting with an initialized value of x = {x}");
 

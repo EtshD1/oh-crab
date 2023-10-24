@@ -1,6 +1,6 @@
 fn main() {
     // Function
-    println!("Hello, Functions");
+    println!("Hello, Functions!");
 
     anotha_one(5);
     and_anotha(5, 'h');

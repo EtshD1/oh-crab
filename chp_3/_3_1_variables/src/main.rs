@@ -2,6 +2,7 @@
 const THREE_HOURS_IN_SECONDS: u32 = 60 * 60 * 3;
 
 fn main() {
+    println!("Hello, Variables!");
 
     // Mutability
     let mut x = 5;
