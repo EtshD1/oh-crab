@@ -5,4 +5,8 @@ fn main() {
     println!("Hello, Comments!"); // Comments can also be placed after code
     // But mostly comments will on a seperate line like this
     println!("Nothing to see here, just the code...");
+    /*
+        This is also a comment
+        mainly used for multiple lines
+    */
 }
